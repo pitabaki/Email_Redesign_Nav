@@ -1,0 +1,171 @@
+/*CSS for Data*/
+body{
+	margin:0 auto;
+	background-color:#eeeded;
+	padding-bottom:40px;
+}
+.title{
+	margin:0 auto;
+	padding:15px 0 10px 40px;
+	display:block;
+	position:fixed;
+	width:100%;
+	background-color:#5489c7;
+	box-shadow:0 1px 5px rgba(0, 0, 0, 0.5);
+	z-index:10000;
+}
+.container{
+	margin:0 auto;
+	padding:100px 0 40px 0;
+	display:block;
+	width:90%;
+	border-radius:5px;
+}
+.preview{
+	margin:0 auto;
+	padding: 20px;
+	transition: all 0.5s ease;
+}
+.dropShadow{
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	box-shadow:0 5px 5px rgba(0, 0, 0, 0.25);
+	transition: all 0.5s ease;
+}
+.contents{
+	display:block;
+	margin:0 auto;
+	padding: 40px 40px 40px 40px;
+	border-radius: 0 0 10px 10px;
+	background-color:#ffffff;
+}
+.dropShadow:hover{
+	box-shadow:0 5px 20px rgba(0, 0, 0, 0.5);
+}
+.contents h3{
+	padding-top: 0;
+	color: #222222;
+}
+/*
+.contents:hover{
+	box-shadow:0 10px 15px rgba(0, 0, 0, 0.5);
+	transition:1s;
+}*/
+.section_title{
+	margin: 0 auto;
+	margin-top: 0px;
+	padding:20px 40px 10px 40px;
+	background-color:#231f20;
+	border-radius: 10px 10px 0 0;
+}
+/*
+.chartTitle:hover{
+	box-shadow:0 0 15px rgba(0, 0, 0, 0.5);
+}*/
+.preview p{
+	padding:20px 20px 20px 20px;
+}
+
+section{
+	margin:0 auto;
+	display:block;
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+a{
+	-webkit-font-smoothing:antialiased;
+}
+p,
+h1,
+h3,
+li,
+svg{
+		margin:0 auto;
+		display:block;
+   		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   		font-weight: 100;
+		color:#222222;
+	}
+h1{
+		margin:0 auto;
+		display:block;
+		text-align: center;
+		font-weight:lighter;
+		font-size:29px;
+		line-height: 29px;
+		color:#ffffff;
+	}
+h3{
+		padding-top:20px;
+		padding-bottom:5px;
+		font-size:22px;
+		line-height: 27px;
+		color:#eeeded;
+		
+	}
+ul{
+		list-style:none;
+	}
+p,
+li,
+a{
+		font-size:16px;
+		line-height:22px;
+	}
+ul{
+		padding: 0;
+		padding-top: 4px;
+		border-radius:5px;
+	}
+li{
+		padding:0;
+		font-size:14px;
+		line-height:21px;
+		color:#222222;
+		text-decoration:none;
+	}
+a{
+		text-decoration:none;
+		color:#e88b46;
+		transition: .7s;
+	}
+a:hover{
+		text-decoration: none;
+		color:#b71849;
+	}
+
+.title h1{
+	font-size: 24px;
+	text-align: left;
+}
+@media screen and (max-width: 992px){
+	.title{
+		padding:15px 0 10px 0;
+	}
+	.title h1{
+		text-align: center;
+	}
+}
+@media (max-width: 420px){
+	section{
+		width: 100%;
+	}
+	.container{
+		padding:100px 0 40px 0;
+		width: 90%;
+	}
+	#barChart{
+		width:90%;
+	}
+	.contents:hover{
+		box-shadow:0 0 0 #000000;
+	}
+}
